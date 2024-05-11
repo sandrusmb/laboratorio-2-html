@@ -9,38 +9,68 @@
   </head>
   <body>
     <header class="header">
-      <button class="header-button">
-        <figure class="item-icon">
-          <img
-            src="./src/assets/icons/icon-menu-burguer.svg"
-            alt="Icono más opciones de menú principal"
-            title="Icono más opciones de menú principal"
-          />
-        </figure>
-      </button>
-      <!--     <nav class="menu">
-        <ul class="list">
-          <li class="item">
-            <a>Moda mujer</a>
-            <a>Moda hombre</a>
-            <a>Nueva colección</a>
-            <a>Colecciones especiales</a>
+      <nav class="header-menu">
+        <button class="header-button">
+          <figure class="header-button-icon">
+            <img
+              src="./src/assets/icons/icon-menu-burguer.svg"
+              alt="Icono más opciones de menú principal"
+              title="Icono más opciones de menú principal"
+            />
+          </figure>
+        </button>
+        <ul class="header-link-list">
+          <li class="header-link-item" tabindex="0">
+            <a class="header-link-item-text">Moda mujer</a>
           </li>
-          <li class="item">
-            <a>Moda mujer</a>
-            <a>Moda hombre</a>
-            <a>Nueva colección</a>
-            <a>Colecciones especiales</a>
+          <li class="header-link-item" tabindex="0">
+            <a class="header-link-item-text">Moda hombre</a>
+          </li>
+          <li class="header-link-item" tabindex="0">
+            <a class="header-link-item-text">Nueva colección</a>
+          </li>
+          <li class="header-link-item" tabindex="0">
+            <a class="header-link-item-text">Colecciones especiales</a>
           </li>
         </ul>
-      </nav> -->
+        <ul class="header-icon-list">
+          <li class="header-icon-item" tabindex="0">
+            <figure class="header-icon-item-image">
+              <img
+                src="./src/assets/icons/icon-user.svg"
+                alt="Perfil de usuario"
+                title="Perfil de usuario"
+              />
+            </figure>
+          </li>
+          <li class="header-icon-item" tabindex="0">
+            <figure class="header-icon-item-image">
+              <img
+                src="./src/assets/icons/icon-heart.svg"
+                alt="Favoritos"
+                title="Favoritos"
+              />
+            </figure>
+          </li>
+          <li class="header-icon-item" tabindex="0">
+            <figure class="header-icon-item-image">
+              <img
+                src="./src/assets/icons/icon-shopping-cart.svg"
+                alt="Carrito de la compra"
+                title="Carrito de la compra"
+              />
+            </figure>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
       <h1 class="main-title">Nuevas colecciones</h1>
       <ul class="main-list">
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-3.jpg"
               alt="Vestido corto, azul de tirantes"
               title="Vestido corto, azul y con tirantes"
@@ -52,8 +82,9 @@
           </div>
         </li>
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-6.jpg"
               alt="Camisa amarilla de manga corta"
               title="Camisa amarilla de manga corta"
@@ -65,8 +96,9 @@
           </div>
         </li>
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-4.jpg"
               alt="Vaqueros blancos largos con abertura en el tobillo"
               title="Vaqueros blancos largos con abertura en el tobillo"
@@ -78,8 +110,9 @@
           </div>
         </li>
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-5.jpg"
               alt="Polo beige de manga corta con ribete blanco"
               title="Polo beige de manga corta con ribete blanco"
@@ -91,8 +124,9 @@
           </div>
         </li>
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-1.jpg"
               alt="Camisa blanca de sarga con manga larga"
               title="Camisa blanca de sarga con manga larga"
@@ -104,8 +138,9 @@
           </div>
         </li>
         <li class="main-item">
-          <figure class="main-item-image">
+          <figure class="main-item-image" tabindex="0">
             <img
+              class="main-item-image-picture"
               src="./src/assets/images/image-2.jpg"
               alt="Camiseta básica blanca de manga corta y serigrafía"
               title="Camiseta básica blanca de manga corta y serigrafía"
@@ -130,12 +165,12 @@
                 title="Entrega"
               />
             </figure>
-            <p class="footer-item-text">Entrega</p>
+            <p class="footer-item-text" tabindex="0">Entrega</p>
           </a>
         </li>
         <li class="footer-item">
           <a class="footer-link">
-            <p class="footer-item-text">Devoluciones y cambios</p>
+            <p class="footer-item-text" tabindex="0">Devoluciones y cambios</p>
           </a>
         </li>
         <li class="footer-item">
@@ -144,11 +179,11 @@
               <img
                 class="footer-item-img"
                 src="./src/assets/icons/icon-phone.svg"
-                alt="Entrega"
-                title="Entrega"
+                alt="Contacto"
+                title="Contacto"
               />
             </figure>
-            <p class="footer-item-text">+375 (29) 749-18-23</p>
+            <p class="footer-item-text" tabindex="0">+375 (29) 749-18-23</p>
           </a>
         </li>
         <li class="footer-item">
@@ -157,11 +192,11 @@
               <img
                 class="footer-item-img"
                 src="./src/assets/icons/icon-mail.svg"
-                alt="Entrega"
-                title="Entrega"
+                alt="E-mail"
+                title="E-mail"
               />
             </figure>
-            <p class="footer-item-text">shop@omix.com</p>
+            <p class="footer-item-text" tabindex="0">shop@omix.com</p>
           </a>
         </li>
       </ul>
